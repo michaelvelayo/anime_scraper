@@ -1,0 +1,10 @@
+default: &default
+  adapter: mysql2
+  encoding: utf8
+
+development:
+  <<: *default  
+  host:     "localhost"
+  username: "root"
+  password: "your_password"
+  database: "animeapi"
